@@ -5,8 +5,6 @@ def reverse_each_word(sentence)
   arry = sentence.split(" ")
   
   arry.each do |element|
-    puts element + "!"
-    puts element.reverse!
-    
+    element.reverse!
   end
 end 
