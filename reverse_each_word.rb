@@ -7,4 +7,6 @@ def reverse_each_word(sentence)
   arry.each do |element|
     element.reverse!
   end
+  
+  arry.join(" ")
 end 
